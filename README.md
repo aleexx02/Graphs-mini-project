@@ -1,6 +1,16 @@
+README.md
+
+# Authors:
+1. Alexandra 
+2. Lucia Victoria Fernandez Sanchez
+
+# Objective
+
 For this project, we have chosen 2 different graph datasets. For each of them we have:
 1. Computed some preliminary statistics and performed analysis on the dataset using some centrality measures and relevant visualisations, including what each graph represents.
 2. Compute/detect the communities on the dataset using at least 2 different detection community algorithms and different metrics to evaluate the quality of the communities.
+
+# Datasets
 
 The two data that we have chosen are:
 ### Dataset 1: Social circles: Facebook
@@ -19,8 +29,17 @@ For each ego network, there are 5 corresponding files:
 
 ### Dataset 2: ADD NAME OF DATASET 2
 
-* *Source*: [Link dataset 2](add link for dataset 2)
+* *Source*: [Protein-Protein Interaction (PPI) dataset](https://string-db.org/cgi/download)
 
-* *Description:*
+* *Description:* This file contains a Protein-Protein Interaction (PPI) network for the organism Homo sapiens (human), sourced from the STRING database (version 12.0). The network represents functional associations between proteins, integrating evidence from various sources
 
-    ------- ADD DESCRIPTION OF DATASET 2 HERE -------
+The dataset has been pre-processed with the following filters to reduce file size and focus on higher-confidence interactions:
+
+* Limited to Homo sapiens
+* Only includes interactions with a combined confidence score ≥ 400 (on a scale of 0-1000). This filter retains more reliable interactions while excluding speculative ones.
+* Duplicate interaction pairs (e.g., A-B and B-A) are removed. Only one entry per interacting pair is included (onlyAB), reducing file size by 50%.
+
+
+TBD.
+
+
