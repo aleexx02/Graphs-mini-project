@@ -1,7 +1,7 @@
 README.md
 
 # Authors:
-1. Alexandra 
+1. Alexandra Perruchot-Triboulet Rodríguez
 2. Lucia Victoria Fernandez Sanchez
 
 # Objective
